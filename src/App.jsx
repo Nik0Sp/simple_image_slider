@@ -3,7 +3,6 @@ import Picture2 from "./images/picture2.png";
 import Picture3 from "./images/picture3.png";
 import Picture4 from "./images/picture4.png";
 function App() {
-  
   return (
     <div className="section">
       <h1 className="title">Simple Image Slider</h1>
@@ -20,11 +19,11 @@ function App() {
           <button onClick="dot(3)"></button>
           <button onClick="dot(4)"></button>
         </div>
-        <button id="prev" onClick="prev()">
-          prev
-        </button>
         <button id="back" onClick="back()">
           back
+        </button>
+        <button id="next" onClick="next()">
+          next
         </button>
       </div>
     </div>
