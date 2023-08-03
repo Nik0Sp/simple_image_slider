@@ -19,8 +19,6 @@ function App() {
     );
   };
 
-
-
   return (
     <div className="section">
       <h1 className="title">Simple Image Slider</h1>
