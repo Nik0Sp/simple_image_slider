@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="section">
       <h1 className="title">Simple Image Slider</h1>
-      <div className="container">
+      <div className="container glass">
         <div className="image-container">
           {images.map((img, index) => (
             <img
